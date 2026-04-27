@@ -651,7 +651,7 @@ function LandingView({
           <span className="text-[11px] tracking-[0.45em] uppercase text-white/50 font-light mb-1">Restaurant</span>
           <h1 className="text-3xl font-bold text-white tracking-tight" style={SERIF}>Le Cocotier</h1>
           <a
-            href="https://www.google.com/maps/search/?api=1&query=14.7456,-17.5322"
+            href="https://www.google.com/maps/search/?api=1&query=Restaurant+Le+Cocotier+Dakar&query_place_id=ChIJKxCztt4SwQ4RZf5p7rZBinU"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 flex items-center gap-2 transition-colors duration-300 group"
