@@ -650,12 +650,18 @@ function LandingView({
         >
           <span className="text-[11px] tracking-[0.45em] uppercase text-white/50 font-light mb-1">Restaurant</span>
           <h1 className="text-3xl font-bold text-white tracking-tight" style={SERIF}>Le Cocotier</h1>
-          <div className="mt-3 flex items-center gap-2" style={{ color: `${C.gold}99` }}>
-            <div className="h-px w-8" style={{ backgroundColor: C.gold }} />
-            <MapPin size={11} style={{ color: C.gold }} />
-            <span className="text-[10px] tracking-[0.22em] uppercase font-light" style={{ color: C.gold }}>Pointe des Almadies · Dakar</span>
-            <div className="h-px w-8" style={{ backgroundColor: C.gold }} />
-          </div>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=14.7456,-17.5322"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 flex items-center gap-2 transition-colors duration-300 group"
+            style={{ color: `${C.gold}99` }}
+          >
+            <div className="h-px w-8 transition-colors duration-300" style={{ backgroundColor: C.gold }} />
+            <MapPin size={11} className="group-hover:text-red-400 transition-colors duration-300" style={{ color: C.gold }} />
+            <span className="text-[10px] tracking-[0.22em] uppercase font-light group-hover:text-red-400 transition-colors duration-300 min-h-[44px] flex items-center" style={{ color: C.gold }}>Pointe des Almadies · Dakar</span>
+            <div className="h-px w-8 transition-colors duration-300" style={{ backgroundColor: C.gold }} />
+          </a>
         </motion.div>
 
         {/* Headline */}
